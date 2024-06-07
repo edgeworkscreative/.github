@@ -1,0 +1,35 @@
+name: ▷ PROJECT DETAILS AND REFERENCE
+description: create a project details reference with project description and links to important resources.
+title: '▷ PROJECT DETAILS AND REFERENCE'
+labels: ['info']
+body:
+  - type: markdown
+    id: markdown_content
+    value: "## [ PROJECT NAME ]"
+    validations:
+      required: false
+  - type: textarea
+    id: project_description
+    attributes:
+      label: Project Description
+      description: ""
+    validations:
+      required: false
+  - type: markdown
+    id: markdown_with_multiline_content
+    value: |
+      ## Project Deadlines & Billing
+      Project Deadline:
+
+      Harvest Project / Task:
+      ## DEVELOPER INFO & RESOURCES
+
+      XD Design Document Link: [ insert link here ]
+
+      Client-Facing Project Sheet: [ insert link here ]
+
+      Staged Development Server URL: [ none yet ]
+
+      Live Website URL:
+    validations:
+      required: false
