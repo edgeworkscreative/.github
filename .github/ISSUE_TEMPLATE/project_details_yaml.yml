@@ -23,17 +23,38 @@ body:
       required: false
   - type: markdown
     attributes:
-      value: |
-        ## Project Deadlines & Billing
-        Project Deadline:
-
-        Harvest Project / Task:
-        ## DEVELOPER INFO & RESOURCES
-
-        XD Design Document Link: [ insert link here ]
-
-        Client-Facing Project Sheet: [ insert link here ]
-
-        Staged Development Server URL: [ none yet ]
-
-        Live Website URL:
+      value: "## Project Deadlines & Billing"
+  - type: input
+    id: project_deadline
+    attributes:
+      label: Project Deadline
+      description: Enter the project due date
+      placeholder: July 01, 2024
+  - type: input
+    id: project_harvest
+    attributes:
+      label: Harvest Project Code
+      description: Enter the Harvest Porject info
+  - type: markdown
+    attributes:
+      value: "## Developer Info and Resources"
+  - type: input
+    id: project_xd
+    attributes:
+      label: XD Design Document Link
+      description: Enter the XD Design Document Link
+  - type: input
+    id: project_sheet
+    attributes:
+      label: Client Project Sheet
+      description: URL to the client project sheet (if any)
+  - type: input
+    id: project_staged
+    attributes:
+      label: Stage Development Server URL
+      description: URL to the live Dev Server
+  - type: input
+    id: project_live_url
+    attributes:
+      label: Live Website URL
+      description: The live website URL
