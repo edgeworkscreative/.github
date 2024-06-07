@@ -4,32 +4,36 @@ title: '▷ PROJECT DETAILS AND REFERENCE'
 labels: ['info']
 body:
   - type: markdown
-    id: markdown_content
-    value: "## [ PROJECT NAME ]"
+    attributes:
+      value: "Please provide as much information as is available."
+  - type: input
+    id: project_name
+    attributes:
+      label: Project Name
+      description: Enter the full name of the project
+      placeholder: e.g., ACME Corp Website
     validations:
-      required: false
+      required: true
   - type: textarea
     id: project_description
     attributes:
       label: Project Description
-      description: ""
+      description: "Describe the project in as much detail as required to have an understanding of main goals for both client and Edgeworks Creative."
     validations:
       required: false
   - type: markdown
-    id: markdown_with_multiline_content
-    value: |
-      ## Project Deadlines & Billing
-      Project Deadline:
+    attributes:
+      value: |
+        ## Project Deadlines & Billing
+        Project Deadline:
 
-      Harvest Project / Task:
-      ## DEVELOPER INFO & RESOURCES
+        Harvest Project / Task:
+        ## DEVELOPER INFO & RESOURCES
 
-      XD Design Document Link: [ insert link here ]
+        XD Design Document Link: [ insert link here ]
 
-      Client-Facing Project Sheet: [ insert link here ]
+        Client-Facing Project Sheet: [ insert link here ]
 
-      Staged Development Server URL: [ none yet ]
+        Staged Development Server URL: [ none yet ]
 
-      Live Website URL:
-    validations:
-      required: false
+        Live Website URL:
