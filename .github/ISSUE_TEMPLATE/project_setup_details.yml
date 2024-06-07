@@ -1,0 +1,76 @@
+name: "▷ START HERE - PROJECT DETAILS AND SETUP"
+description: "create a project details panel"
+title: ""
+labels: ["project details"]
+assignees: []
+
+body:
+  - type: markdown
+    attributes:
+      value: "## [ PROJECT NAME ]\n\n[ General Client / Project description here ]"
+
+  - type: input
+    id: project-deadline
+    attributes:
+      label: "Project Deadline"
+      description: "Enter the project deadline"
+      placeholder: "e.g., 2023-12-31"
+
+  - type: input
+    id: harvest-project-task
+    attributes:
+      label: "Harvest Project / Task"
+      description: "Enter the Harvest project or task"
+      placeholder: "e.g., Project ABC / Task 123"
+
+  - type: markdown
+    attributes:
+      value: "## DEVELOPER INFO & RESOURCES"
+
+  - type: input
+    id: xd-design-document-link
+    attributes:
+      label: "XD Design Document Link"
+      description: "Insert the XD design document link"
+      placeholder: "e.g., https://example.com/xd-design"
+
+  - type: input
+    id: client-facing-project-sheet
+    attributes:
+      label: "Client-Facing Project Sheet"
+      description: "Insert the client-facing project sheet link"
+      placeholder: "e.g., https://example.com/client-sheet"
+
+  - type: input
+    id: staged-development-server-url
+    attributes:
+      label: "Staged Development Server URL"
+      description: "Insert the staged development server URL"
+      placeholder: "e.g., https://staging.example.com"
+      value: "none yet"
+
+  - type: input
+    id: live-website-url
+    attributes:
+      label: "Live Website URL"
+      description: "Insert the live website URL"
+      placeholder: "e.g., https://www.example.com"
+
+  - type: markdown
+    attributes:
+      value: "## Getting Started\n\nIf you are the first developer on a new project, create an empty database for the development to take place on.\n\nEither way, you'll need database connection credentials for your .env\n\nTo get started:"
+
+  - type: checkboxes
+    id: getting-started-checklist
+    attributes:
+      label: "Getting Started Checklist"
+      options:
+        - label: "Gather DB credentials (create new empty db, if needed)"
+        - label: "Set up your local environment incl .user.ini , web.config, autoload.php"
+        - label: "Set .env variables - check paths, email addresses, etc."
+        - label: "Run Composer Install and Migrations"
+        - label: "Sync /uploads folder with team"
+
+  - type: markdown
+    attributes:
+      value: "Run composer and migrations by issuing these commands from a terminal window at the root of your project:\n\n```bash\n\n    composer install\n\n    php run_migrations.php run\n\n```"
