@@ -1,0 +1,21 @@
+name: Client Information
+description: Capture client name and acronym
+title: "[Client]: "
+labels: ["client-info"]
+body:
+  - type: input
+    id: client-name
+    attributes:
+      label: Client Name
+      description: Enter the full name of the client
+      placeholder: e.g., Acme Corporation
+    validations:
+      required: true
+  - type: input
+    id: client-acronym
+    attributes:
+      label: Client Acronym
+      description: Enter the acronym for the client
+      placeholder: e.g., ACME
+    validations:
+      required: true
