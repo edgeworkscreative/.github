@@ -1,8 +1,8 @@
 ---
-name: [ GO-LIVE Checklist ]
+name:  ✔ GO-LIVE Checklist
 about: A checklist of things to be done for a site to go live.
 title: 'GO-LIVE Checklist'
-labels: 'info'
+labels: ['info']
 assignees: ''
 ---
 
