@@ -1,5 +1,5 @@
 name: ▷ Project Details and Reference
-description: Create a project details reference issue. This issue persists for the life of a project and includes important project info, links and other resources.
+description: Create a project details reference issue.
 title: '▷ PROJECT DETAILS AND REFERENCE'
 labels: ['info']
 body:
