@@ -11,9 +11,14 @@ Select the appropriate template from the available options.
 
 Templates available:
 
-- Bug Report
-- Feature Request
-- Custom Issue Template
+- Bug Report - Somethign's wrong!
+- Enhancement Request - Improve something
+- Feature Request - Ask for new functionality
+- User Story - Make a request from user story
+- Documentation Request - Help Files, on-screen help, Docs, etc.
+- Go-Live Checklist - Crossing T's Dotting I's
+- Project Details - The INFO for a project goes here
+- Getting Started - Reminders for the first Dev on the Scene
 
 To modify or add new templates, edit the files in the .github/ISSUE_TEMPLATE directory.
 
