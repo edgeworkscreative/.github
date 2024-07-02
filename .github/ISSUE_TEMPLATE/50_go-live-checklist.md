@@ -77,17 +77,29 @@ Make sure the following happens:
 * [ ] Configure .env for live
 * [ ] Set up or confirm Cloudflare account exists
 * [ ] Change any DNS as needed for the go-live
-* [ ] transfer /uploads and make sure all expected /uploads/__FOLDERS
-* [ ] test all main forms once site is live - confirm all expected actions take place
+* [ ] transfer /uploads and make sure all expected /uploads/__FOLDERS exist
+* [ ] test all main forms once site is live - confirm all expected actions take place [see below]
 * [ ] Is the site using any third party integrations that require keys, accounts or other settings for the live site?
 * [ ] Will the site require any CRON jobs?
+* [ ] Once site is up go to admin settings to auto-gen robots, links, etc
 * [ ] Once site is up run any Publish mechanisms (e.g. Nav, CMS posts)
-* [ ] Any Cloudflare Page Rules or cache setups?
+* [ ] Any Cloudflare Page Rules or cache setups? Always HTTPS etc
+
+### Website Forms
+
+After the site has gone live front-end forms and functions must be tested to confirm they work in the live environment. In most cases we are testing a front-end submission process, a notification (email), and logic on the back end for record management and/or admin handling (e.g. accept/deny)
+
+| Form or Function | Page URL | Front End | Notification | Back End |
+| ---------- | ---------- | ----- | ----- | ----- |
+|     contact form     |          |     |     |     |
+|          |          |     |     |     |
+|          |          |     |     |     |
+|          |          |     |     |     |
 
 ### Some very likely third-party things:
 
 * [ ] Google ReCaptcha
-* [ ] Google Search Console - claim the site and submit sitmap
+* [ ] Google Search Console - claim the site and submit sitemap
 * [ ] Google Tag Manager
 * [ ] Google Analytics
 * [ ] Create Admin report from Looker Studio

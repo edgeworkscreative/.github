@@ -31,3 +31,10 @@ Run composer and migrations by issuing these commands from a terminal window at 
     php run_migrations.php run
 
 ```
+
+## Housekeeping
+
+If this is a re-design project it will be necessary to capture existing URLs into a 301. You Check sitemap files on old sites or Search Console for existing known URLs.
+
+- [ ] Capture all known page URLs to a Sheet and record in Project Details issue.
+
