@@ -1,6 +1,6 @@
 ---
 name: Enhancement Request
-about: Enhancement Request issue
+about: Useful for update and enhacement requests
 title: ''
 labels: enhancement
 assignees: ''

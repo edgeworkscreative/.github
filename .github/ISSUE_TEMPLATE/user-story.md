@@ -1,5 +1,5 @@
 ---
-name: User Story
+name: 🚶 User Story
 about: This template provides a basic structure for user story issues.
 
 ---
