@@ -1,5 +1,5 @@
 ---
-name: Enhancement Request
+name: 💪 Enhancement Request
 about: Useful for update and enhacement requests
 title: ''
 labels: enhancement

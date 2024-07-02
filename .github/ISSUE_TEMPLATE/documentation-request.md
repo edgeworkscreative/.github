@@ -1,5 +1,5 @@
 ---
-name: 🗎 Documentation Request
+name: 📖 Documentation Request
 about: Documentation Request issue
 title: ''
 labels: documentation

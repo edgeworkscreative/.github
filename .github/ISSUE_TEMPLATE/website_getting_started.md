@@ -1,5 +1,5 @@
 ---
-name: Dev Site Setup
+name: ⚙️ Dev Site Setup
 about: Start a new development site
 title: 'Start a new development site'
 labels: project details
